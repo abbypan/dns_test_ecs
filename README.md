@@ -18,3 +18,9 @@ same as :
 ## recv_ecs 
 
 example from Net::DNS::Nameserver
+
+## dns-reply-missing-edns.patch
+
+Net::DNS 1.06
+
+fix bug : [Net::DNS::Nameserver does not allow EDNS replies](https://rt.cpan.org/Ticket/Display.html?id=115558&results=b726149ec96a4ba3ede1c65761e1a229)
